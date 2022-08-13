@@ -26,6 +26,8 @@ html {
     align-items: center;
     background-color: var(--color-secundario);
     border-radius: 10px;
+    width: 33rem;
+    height: fit-content;
     
 }
 
@@ -40,5 +42,5 @@ html {
 
 img {
     border-radius: 10px 0px 0px 10px;
-    height: 10rem;
+    height: 25rem;
 }
