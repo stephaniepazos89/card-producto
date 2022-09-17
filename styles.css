@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 14px;
     font-family:"Montserrat",serif;
 }
 
@@ -13,6 +13,7 @@ html {
     --color-primario: rgb(242, 235, 227);
     --color-secundario: rgb(255, 255, 255);
     --color-terciario: rgb(60, 128, 107);
+    --color-cuaternario:rgb(150,150,150);
 }
 
 .fondo {
@@ -28,8 +29,8 @@ html {
     align-items: center;
     background-color: var(--color-secundario);
     border-radius: 10px;
-    width: 33rem;
-    height: 65%;
+    width: 34rem;
+    height: 60%;
     
 }
 
@@ -38,7 +39,7 @@ html {
     display:flex;
     flex-direction: column;
     gap:1rem;
-    padding:1rem;
+    padding:2rem;
     width:90%;
     
 }
@@ -60,4 +61,43 @@ html {
     border:none;
     color: var(--color-secundario);
     font-weight: bold;
+}
+
+.detalle{
+    letter-spacing:4px;
+    font-size: 0.7rem;
+    color:var(--color-cuaternario);    
+}
+
+h1{
+    font-family:"Fraunces",serif;
+    font-size: 2rem;
+    line-height:29px;
+}
+
+p{
+    font-size: 0.7rem;
+    color:var(--color-cuaternario);  
+    line-height:15px;  
+}
+
+.precio-principal{
+    color: var(--color-terciario);
+    font-weight: bold;
+    font-family:"Fraunces",serif;
+    font-size: 1.8rem;
+}
+
+.contenedor-precio{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:flex-start;
+    gap:16px;
+}
+
+.precio-secundario{
+    font-size: 0.8rem;
+    text-decoration:line-through;
+    color:var(--color-cuaternario); 
 }
