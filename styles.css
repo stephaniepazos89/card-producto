@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,14 +6,14 @@
 
 html {
     font-size: 14px;
-    font-family:"Montserrat",serif;
+    font-family: "Montserrat", serif;
 }
 
 :root {
     --color-primario: rgb(242, 235, 227);
     --color-secundario: rgb(255, 255, 255);
     --color-terciario: rgb(60, 128, 107);
-    --color-cuaternario:rgb(150,150,150);
+    --color-cuaternario: rgb(150, 150, 150);
 }
 
 .fondo {
@@ -31,84 +31,90 @@ html {
     border-radius: 10px;
     width: 34rem;
     height: 60%;
-    
+
 }
 
 .descripcion {
     height: 100%;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content:space-around;
-    padding:2rem;
-    width:90%;
-    
+    justify-content: space-around;
+    padding: 2rem;
+    width: 90%;
+
 }
 
 .imagen {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     background-image: url(/images/image-product-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
-    border-radius: 8px 0 0 8px ;
+    border-radius: 8px 0 0 8px;
 }
 
-.estiloBoton{
+.estiloBoton {
     background-color: var(--color-terciario);
     padding: 0.7rem;
-    border-radius:8px;
-    border:none;
+    border-radius: 8px;
+    border: none;
     color: var(--color-secundario);
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:"Montserrat",serif;
+    font-family: "Montserrat", serif;
     gap: 8px;
     font-size: 0.7rem;
+    cursor: pointer;
+
 }
 
-.detalle{
-    letter-spacing:4px;
+.estiloBoton:hover {
+    background-color: rgb(25, 64, 50);
+}
+
+.detalle {
+    letter-spacing: 4px;
     font-size: 0.7rem;
-    color:var(--color-cuaternario);    
+    color: var(--color-cuaternario);
 }
 
-h1{
-    font-family:"Fraunces",serif;
+h1 {
+    font-family: "Fraunces", serif;
     font-size: 2rem;
-    line-height:29px;
+    line-height: 29px;
 }
 
-p{
+p {
     font-size: 0.7rem;
-    color:var(--color-cuaternario);  
-    line-height:15px;  
+    color: var(--color-cuaternario);
+    line-height: 15px;
 }
 
-.precio-principal{
+.precio-principal {
     color: var(--color-terciario);
     font-weight: bold;
-    font-family:"Fraunces",serif;
+    font-family: "Fraunces", serif;
     font-size: 1.8rem;
 }
 
-.contenedor-precio{
+.contenedor-precio {
     display: flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:flex-start;
-    gap:16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
 }
 
-.precio-secundario{
+.precio-secundario {
     font-size: 0.8rem;
-    text-decoration:line-through;
-    color:var(--color-cuaternario); 
+    text-decoration: line-through;
+    color: var(--color-cuaternario);
 }
 
-.carrito-compras{
-    height:0.9rem;
-    width:auto;
+.carrito-compras {
+    height: 0.9rem;
+    width: auto;
 }
