@@ -38,7 +38,7 @@ html {
     height: 100%;
     display:flex;
     flex-direction: column;
-    gap:1rem;
+    justify-content:space-around;
     padding:2rem;
     width:90%;
     
@@ -61,6 +61,12 @@ html {
     border:none;
     color: var(--color-secundario);
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Montserrat",serif;
+    gap: 8px;
+    font-size: 0.7rem;
 }
 
 .detalle{
@@ -100,4 +106,9 @@ p{
     font-size: 0.8rem;
     text-decoration:line-through;
     color:var(--color-cuaternario); 
+}
+
+.carrito-compras{
+    height:0.9rem;
+    width:auto;
 }
